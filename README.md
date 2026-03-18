@@ -1,4 +1,4 @@
-# 🖼️ Save Image As Type
+# 🖼️ Safe Image Converter Extension
 
 > A powerful Chrome extension that revolutionizes how you save and convert images on the web
 
@@ -6,246 +6,115 @@
   <img src="baker.png" alt="screenshot" width="800px">
 </div>
 
-<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/your-extension-id)](https://chrome.google.com/webstore/detail/your-extension-id)
-[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/your-extension-id)](https://chrome.google.com/webstore/detail/your-extension-id)
 
-</div>
+# 🔒 Secure Image Format Converter (Chrome Extension)
 
-## 📖 Table of Contents
-
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage Guide](#-usage-guide)
-- [Advanced Settings](#%EF%B8%8F-advanced-settings)
-- [Development](#-development)
-- [Contributing](#-contributing)
-- [Technical Details](#%EF%B8%8F-technical-details)
-- [FAQ](#-frequently-asked-questions)
-- [Privacy Policy](#-privacy-policy)
-- [License](#-license)
-
-## ✨ Features
-
-### 🎯 Core Functionality
-
-- **Instant Format Conversion**
-  - Convert to JPG/JPEG with adjustable quality
-  - Save as PNG with lossless compression
-  - Transform to WebP for optimal web performance
-
-### 🛠️ Advanced Options
-
-- **Quality Control**
-  - Adjustable compression (1-100%)
-  - Smart quality presets for different image types
-  - Preview quality changes in real-time
-
-- **Image Optimization**
-  - Intelligent compression algorithms
-  - Metadata stripping capability
-  - Color palette optimization for PNGs
-  - Smart transparency handling
-
-- **Dimension Control**
-  - Custom resize options
-  - Maintain aspect ratio toggle
-  - Preset common dimensions
-  - Batch processing capabilities
-
-### 💫 User Experience
-
-- **Intuitive Interface**
-  - Clean, modern popup design
-  - Easy-to-use context menu
-  - Keyboard shortcuts support
-  - Progress indicators for large files
-
-- **Smart Defaults**
-  - Remember last used settings
-  - Format-specific preferences
-  - Custom naming patterns
-  - Quick reset options
-
-## 🚀 Installation
-
-### From Source
-
-1. Clone this repository
-2. Open Chrome and navigate to `chrome://extensions`
-3. Enable "Developer mode"
-4. Click "Load unpacked"
-5. Select the extension directory
-
-## 🎯 Usage Guide
-
-### Basic Usage
-
-1. **Right-click** any image on the web
-2. Hover over "Save Image As Type"
-3. Select your desired format:
-   - **JPG**: Best for photographs and complex images
-   - **PNG**: Ideal for screenshots and images with transparency
-   - **WebP**: Perfect for web optimization
-
-### Format Selection Guide
-
-| Format | Best For | Quality Range | File Size |
-|--------|----------|---------------|-----------|
-| JPG | Photos, Complex Images | 60-90% | Smaller |
-| PNG | Screenshots, Graphics | Lossless | Larger |
-| WebP | Web Images | 75-90% | Smallest |
-
-### Keyboard Shortcuts
-
-- `Alt + S`: Open settings popup
-- `Alt + J`: Quick save as JPG
-- `Alt + P`: Quick save as PNG
-- `Alt + W`: Quick save as WebP
-
-## ⚙️ Advanced Settings
-
-### Quality Settings
-
-- **JPG/WebP Quality**: Adjust compression level (1-100%)
-- **PNG Optimization**: Color palette optimization
-- **Metadata Options**: Strip or preserve image metadata
-
-### Dimension Control
-
-- **Custom Width/Height**: Set specific dimensions
-- **Aspect Ratio Lock**: Maintain proportions
-- **Preset Sizes**: Common dimensions for social media
-
-### File Management
-
-- **Naming Pattern**: Customize output filenames
-- **Save Location**: Choose default download directory
-- **Conflict Resolution**: Auto-rename or replace
-
-## 💻 Development
-
-### Prerequisites
-
-```bash
-- Node.js (v14 or higher)
-- Chrome Browser
-- Git
-```
-
-### Setup Development Environment
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Saoud30/save-image-as-type.git
-cd save-image-as-type
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Build the extension:
-```bash
-npm run build
-```
-
-4. Load in Chrome:
-- Open `chrome://extensions`
-- Enable "Developer mode"
-- Click "Load unpacked"
-- Select the `dist` folder
-
-### Project Structure
-
-```
-save-image-as-type/
-├── src/
-│   ├── background/
-│   ├── popup/
-│   └── utils/
-├── public/
-│   └── icons/
-├── dist/
-└── tests/
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. Fork the repository
-2. Create your feature branch:
-```bash
-git checkout -b feature/AmazingFeature
-```
-
-3. Commit your changes:
-```bash
-git commit -m 'Add some AmazingFeature'
-```
-
-4. Push to the branch:
-```bash
-git push origin feature/AmazingFeature
-```
-
-5. Open a Pull Request
-
-## 🛠️ Technical Details
-
-### Architecture
-
-- Built with modern Chrome Extension Manifest V3
-- Uses Canvas API for image processing
-- Implements Web Workers for performance
-- Leverages Chrome Storage API for settings
-
-### Performance Optimizations
-
-- Lazy loading of conversion modules
-- Efficient memory management
-- Background processing for large files
-- Caching of frequently used settings
-
-## ❓ Frequently Asked Questions
-
-### General Questions
-
-**Q: Why choose this over browser's default save?**
-A: Our extension offers format conversion, optimization, and quality control in one click.
-
-**Q: Does it work offline?**
-A: Yes, all processing is done locally in your browser.
-
-### Technical Questions
-
-**Q: What's the maximum file size?**
-A: Chrome's limitations apply (typically around 500MB).
-
-**Q: Does it preserve EXIF data?**
-A: Optional - you can choose to strip or preserve metadata.
-
-## 🔒 Privacy Policy
-
-- No data collection
-- All processing done locally
-- No external server communication
-- No analytics or tracking
-
-## 📝 License
-
-MIT © [Shazy]
+> A privacy-first, open-source Chrome extension to convert and save images — **without tracking, hidden scripts, or external calls**
 
 ---
 
-<div align="center">
+## ⚠️ Important Clarification
 
-Made with ❤️ for the web
+This project is **NOT affiliated** with the Chrome Web Store extension "Save Image As Type".
 
-[Report Bug](https://github.com/Saoud30/save-image-as-type/issues) · [Request Feature](https://github.com/Saoud30/save-image-as-type/issues)
+Recent reports flagged a similarly named extension as malware.
 
-</div>
+👉 This repository is an independent implementation and:
+
+* has never been published on the Chrome Web Store
+* contains no tracking or monetization logic
+* is fully open-source for verification
+
+---
+
+## 🧠 Why this project matters
+
+Modern browser extensions are a **major security risk**:
+
+* Hundreds of extensions have been found leaking user data ([SecurityWeek][1])
+* Some inject scripts and hijack affiliate links ([The Hacker News][2])
+* Even trusted extensions can become malicious after updates
+
+👉 This project exists as a **safe, transparent alternative**
+
+---
+
+## 🔐 Security-First Design
+
+### ✅ What this extension DOES
+
+* Convert images using browser Canvas API
+* Save as JPG / PNG / WebP
+* Process everything locally
+
+### ❌ What this extension NEVER does
+
+* No external API calls
+* No analytics / tracking
+* No affiliate injection
+* No remote scripts
+* No data collection
+
+---
+
+## 🔍 How it works
+
+```
+User Right Click → Image URL → Canvas Processing → Download
+```
+
+✔ 100% local
+✔ No network requests
+✔ No hidden behavior
+
+---
+
+## 🚀 Features
+
+* Right-click → Save image as:
+
+  * JPG (adjustable quality)
+  * PNG (lossless)
+  * WebP (optimized)
+* Fast and lightweight
+* Works completely offline
+
+---
+
+## 🛠️ Tech Stack
+
+* Chrome Extension Manifest V3
+* JavaScript (Vanilla)
+* Canvas API
+
+---
+
+## 📦 Installation
+
+1. Clone repo
+2. Open `chrome://extensions`
+3. Enable Developer Mode
+4. Load unpacked
+
+---
+
+## 🔎 Transparency
+
+This project is intentionally:
+
+* small
+* readable
+* easy to audit
+
+👉 You can verify the entire logic in minutes.
+
+---
+
+## 🤝 Contributions
+
+Security improvements are highly welcome.
+
+---
+
+## ⭐ If you care about privacy-first tools, consider starring this repo.
